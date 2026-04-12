@@ -1,0 +1,795 @@
+Timer started: Waiting 25 minutes (1500 seconds)...
+
+--- PHASE 1: EXTRACTION ---
+Extracting /home/abhinav/Downloads/NonVPN-PCAPs-03.zip into /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data...
+Archive:  /home/abhinav/Downloads/NonVPN-PCAPs-03.zip
+Extracting /home/abhinav/Downloads/t2a_dht.zip into /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data...
+Archive:  /home/abhinav/Downloads/t2a_dht.zip
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/tb.v  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/t2a_dht.qpf  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/t2a_dht.qsf  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/t2a_dht.v  
+Extracting /home/abhinav/Downloads/takeout-20251210T115217Z-3-001.zip into /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data...
+Archive:  /home/abhinav/Downloads/takeout-20251210T115217Z-3-001.zip
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/IITM DS System Commands metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/IITM DS DBMS metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/WebSync_ Database Management Systems - YouTube.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/IPMP Embedded _ Computer Architecture and Orga.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/IITM DS PDSA metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/IPMP _ Embedded metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/WebSync_ portal.e-yantra.org metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/eYRC-2025 metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Week 6 - Graded Assignment 6 _ IITM Online De.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Week 5 summarize [https_youtu.be_Am4ZVa1Filk.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Week 8 summarize [https_youtu.be_uqpA6wySe8o.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Week 7 summarize [https_youtu.be_yh6yhQj4Ncg.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Week 6 summarize [https_youtu.be_BQex0zbsMwg.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Week 8 summarize [https_youtu.be_uqpA6wySe8o.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Week 7 summarize [https_youtu.be_yh6yhQj4Ncg.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Week 6 - Graded Assignment 6 _ IITM Online De.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Week 6 summarize [https_youtu.be_BQex0zbsMwg.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 10 - Instruction Set Archit.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 11 Part 1 - Lab 2 _ Segment.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 11 Part 2 - Lab 2 _ Segment.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 11 Part 3 - Lab 2 _ Segment.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 12 - Orthogonal ISA, C Cons.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Week 5 summarize [https_youtu.be_Am4ZVa1Filk.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 14 - Atomic and Predicated .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 13 - Atomic and Predicated .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 15 - General Purpose Regist.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 16 - Expanding opcodes - Yo.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 17 Part 1 - Introduction to.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 2 - High Speed Circuit Desi.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 27 Part 1 - Locality of Ref.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 22 - Process Management - Y.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 18 - Data Hazards - Youtube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 24 - Global Branch Predicti.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 20 Part 1 - Dynamic Instruc(1).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 23 - Branch prediction - Yo.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 21 - Control Hazard, Branch.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 25 - Structural Hazard, Arc.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 26 - Lab 3_ Shared Memory A.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 17 Part 2 -Pipelining - You.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 19 - Lab 2_ Instruction Sch.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 20 Part 1 - Dynamic Instruc.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 28 - Multilevel Paging, Tra.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 27 Part 2 - Page Replacemen.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 36 - Cache, Degree of Multi.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 31 - Paging, Cache - YouTub.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 33 - Cache Organisation - Y.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 30 - Page Frame Allocation,.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 35 - Multilevel Caching, Mu.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 32 - Cache - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 34 - Cache - Cache Coherenc.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 37 Part 1 - Shared Memory A.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 37 Part 2 - Shared Memory A.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 38 Part 2 - Lab 4 _ Task Sw.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 29 Part 1 - Multilevel Pagi.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 39 - Shared Memory Architec.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 38 Part 1 - Virtually Index.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 40 Part 1 - Concurrent Prog.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 4 - Fast Adder Circuits (Co.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 3 - Lab 1 _ Introduction - .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 41 - Conclusion _ Recent Tr.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 40 Part 2 - Concurrent Prog.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 9 - Instruction Set Archite.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 7 Part 1 - Programming usin.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 5 - Fast Multiplier Circuit.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 8 Part 1 - Floating point -.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 7 Part 2 - Programming usin.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 6 - Fast Multiplier Circuit.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(2).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(1).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(5).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(4).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 8 Part 2 - Floating Point -.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(3).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(7).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(9).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(10).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(6).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(11).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(12).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 1 - Introduction High Speed.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 lecture 29 Part 2 - Multilevel Pagi.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 11 Part 1 - Lab 2 _ Segment.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(8).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 11 Part 2 - Lab 2 _ Segment.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 10 - Instruction Set Archit.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/https_nptel.ac.in_courses_106106166.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 12 - Orthogonal ISA, C Cons.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 11 Part 3 - Lab 2 _ Segment.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 16 - Expanding opcodes - Yo.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 14 - Atomic and Predicated .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 15 - General Purpose Regist.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 13 - Atomic and Predicated .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 17 Part 1 - Introduction to.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 17 Part 2 -Pipelining - You.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 20 Part 1 - Dynamic Instruc(1).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 18 - Data Hazards - Youtube.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 20 Part 1 - Dynamic Instruc.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 19 - Lab 2_ Instruction Sch.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 2 - High Speed Circuit Desi.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 21 - Control Hazard, Branch.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 23 - Branch prediction - Yo.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 25 - Structural Hazard, Arc.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 22 - Process Management - Y.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 24 - Global Branch Predicti.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 28 - Multilevel Paging, Tra.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 26 - Lab 3_ Shared Memory A.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 27 Part 2 - Page Replacemen.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 3 - Lab 1 _ Introduction - .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 29 Part 1 - Multilevel Pagi.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 27 Part 1 - Locality of Ref.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 30 - Page Frame Allocation,.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 33 - Cache Organisation - Y.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 32 - Cache - YouTube metada.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 34 - Cache - Cache Coherenc.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 31 - Paging, Cache - YouTub.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 36 - Cache, Degree of Multi.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 37 Part 1 - Shared Memory A.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 37 Part 2 - Shared Memory A.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 35 - Multilevel Caching, Mu.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 38 Part 1 - Virtually Index.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 39 - Shared Memory Architec.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 38 Part 2 - Lab 4 _ Task Sw.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 40 Part 1 - Concurrent Prog.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 4 - Fast Adder Circuits (Co.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 41 - Conclusion _ Recent Tr.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 40 Part 2 - Concurrent Prog.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 6 - Fast Multiplier Circuit.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 5 - Fast Multiplier Circuit.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 7 Part 1 - Programming usin.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 7 Part 2 - Programming usin.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 8 Part 1 - Floating point -.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 8 Part 2 - Floating Point -.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(2).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 9 - Instruction Set Archite.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(1).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(4).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(5).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(7).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(8).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(3).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(9).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(6).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(10).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(11).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 https_archive.nptel.ac.in_content(12).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/https_nptel.ac.in_courses_106106166 metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Hardware Testing - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Hardware Testing - Mazesolver Bot 🌳.pdf.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Hardware Testing - Mazesolver Bot 🌳.pdf metad.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 lecture 29 Part 2 - Multilevel Pagi.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Sign in to e-Yantra metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Hardware Testing - Mazesolver Bot 🌳 metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Sign in to e-Yantra.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/embedded.pdf.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/embedded.pdf metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 AWK Programming Part 1 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 AWK Programming Part 2 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Bash Scripts - Part 01 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Automating Scripts - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Bash scripts - Part 2A - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Bash scripts - Part 2B - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Bash scripts - Part 2C - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Command line editors - Part 03 - Yo.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Command line environment - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Combining commands and files - YouT.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Command line editors - Part 01 - Yo.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Knowing your Hardware - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Command line editors - Part 02 - Yo.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Networking Commands and SSH - YouTu.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Linux process management - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Overview of shell scripts - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Pattern Matching - Part 02 - YouTub.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Launching a Linux Virtual Machine -.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Prompt String - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Shell Variables - Part 1 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Shell Variables - Part 2 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Redirections - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Pattern Matching - Part 01 - YouTub.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Shell variables - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Some Command line Utilities - YouTu.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Software Management - Part 01 - You.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Software Management - Part 02 - You.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Version Control - Part 02 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Simple Commands in Linux - 2 - YouT.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Simple Commands in Linux - 1 - YouT.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Automating Scripts - YouTube metada.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 AWK Programming Part 1 - YouTube me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Version Control - Part 01 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 AWK Programming Part 2 - YouTube me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 stream editor sed - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Bash scripts - Part 2B - YouTube me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Bash scripts - Part 2C - YouTube me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Bash Scripts - Part 01 - YouTube me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Command line editors - Part 01 - Yo.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Bash scripts - Part 2A - YouTube me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Command line environment - YouTube .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Command line editors - Part 03 - Yo.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Combining commands and files - YouT.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Command line editors - Part 02 - Yo.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Knowing your Hardware - YouTube met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Managing Storage - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Networking Commands and SSH - YouTu.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Pattern Matching - Part 01 - YouTub.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Pattern Matching - Part 02 - YouTub.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Launching a Linux Virtual Machine -.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Redirections - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Overview of shell scripts - YouTube.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Prompt String - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Shell Variables - Part 1 - YouTube .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Shell Variables - Part 2 - YouTube .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Shell variables - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Simple Commands in Linux - 2 - YouT.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Simple Commands in Linux - 1 - YouT.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Software Management - Part 01 - You.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Software Management - Part 02 - You.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Some Command line Utilities - YouTu.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Version Control - Part 02 - YouTube.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 stream editor sed - YouTube metadat.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 A. Flex Printing and Arena Preparat.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 B. Bot Building - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 De0 Nano Board - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Version Control - Part 01 - YouTube.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Intel FPGAs - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Bluetooth Module - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 PCB Preparation - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Hardware Procurement - Mazesolver B.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Hardware Testing - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Part 3 (DHT) - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Maze Explorer - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Part 1 (Ultrasonic) - Mazesolver Bo.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Part 4 (IR + SM) - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Part 5 (Moisture Sensor) - Mazesolv.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Part 2 (BM + M) - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 De0 Nano Board - Mazesolver Bot 🌳 .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Stage 2 - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 B. Bot Building - Mazesolver Bot 🌳.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Task 3 - Mazesolver Bot 🌳.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Hardware Testing - Mazesolver Bot 🌳.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Bluetooth Module - Mazesolver Bot 🌳.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Signal Tap Logic Analyzer - Mazesol.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Hardware Procurement - Mazesolver B.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 USB Blaster Driver - Mazesolver Bot.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 A. Flex Printing and Arena Preparat.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 PCB Preparation - Mazesolver Bot 🌳.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Maze Explorer - Mazesolver Bot 🌳 m.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Part 2 (BM + M) - Mazesolver Bot 🌳.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Part 1 (Ultrasonic) - Mazesolver Bo.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Intel FPGAs - Mazesolver Bot 🌳 met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Signal Tap Logic Analyzer - Mazesol.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Part 5 (Moisture Sensor) - Mazesolv.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Stage 2 - Mazesolver Bot 🌳 metadat.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Part 3 (DHT) - Mazesolver Bot 🌳 me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 USB Blaster Driver - Mazesolver Bot.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Task 3 - Mazesolver Bot 🌳 metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Summary of Weeks 1 to 3.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Summary of Weeks 10 to 11.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Summary of Weeks 4 to 6.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-10 Part 4 (IR + SM) - Mazesolver Bot 🌳.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L2_String Matching_ Boyer-Moore Algorithm.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Summary of Weeks 7 to 9.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L3_String Matching_ Rabin-Karp Algorithm.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L4_String Matching Using Automata.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L1_String Matching.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L5_String Matching_ Knuth-Morris-Pratt Algo.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L5_Reductions.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L1_Linear Programming.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L2_Linear Programming  Production Planning.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L4_Network Flows.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L6_String Matching-Tries.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L7_String Matching-Regular Expressions.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L3_Linear Programming  Bandwidth Allocation.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L7_Intractability  P and NP.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L11_Why Efficiency Matters.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L10_Implementation of Python Codes - Part 03.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Algorithms and Data Structures_2_ D.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Algorithms and Data Structures_2_ D(1).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L12_Implementation of Python Codes - Part 04.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Advanced SQL - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L1_Introduction to Jupyter Notebooks and Goo.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L2_Implementation of Python Codes - Part 01.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L6_Intractability  Checking Algorithms.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Algorithms and Data Structures_3_ D.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L3_Python Recap - I.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L4_Python Recap - II.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Algorithms and Data Structures_1_ A.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_(4).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_(1).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_(3).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_(2).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_(5).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L6_Exception Handling.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Backup &amp_ Recovery_4_ Recovery_3.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Backup &amp_ Recovery_1_ Backup_1 -.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L5_Python Recap - III.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Backup &amp_ Recovery_3_ Recovery_2.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Backup &amp_ Recovery_2_ Recovery_1.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Binary Numbers &amp_ Character Enco.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Backup &amp_ Recovery_5_ Backup_2_ .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Canonical Cover - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L7_Classes and Objects.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L8_Implementation of Python Codes - Part 02.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Binary Numbers &amp_ Character Enco(1).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L9_Timing Our Code.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Case Study on ER Diagram - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Closure of Attributes - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Concurrency Control_1 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Concurrency Control_2 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Summary Tutorial - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week 2 Theory - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Course Overview - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L1_Analysis of Algorithms.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-10 Part-2 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L2_Comparing Orders of Magnitude.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L4_Searching in a List.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-12  Part-1,Meet theory di.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-10 Part-1 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L5_Selection Sort.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-12 Part-2 Meet Discussion.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L3_Calculating Complexity - Examples.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-8 Part-1 Revision - YouTu.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-1 l one shot revision l -.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L6_Insertion Sort.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-8 Part-2 Revision - YouTu.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L7_Merge Sort.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS week-11 Part-1 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-9 l 1-shot Revision l DBM.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Dependency presevation - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L8_Analysis of Merge Sort.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Division Operation - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS week-6  1-shot revision - YouT.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L9_Implementation of Searching and Sorting A.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Entity-Relationship Model_2 - YouTu(1).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS week-5 Revision - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L1_Quicksort.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Entity-Relationship Model_2 - YouTu.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Entity-Relationship Model_1 - YouTu.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L2_Analysis of Quicksort.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L4_Concluding Remarks on Sorting Algorithms.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Entity-Relationship Model_3 - YouTu.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L3_Implementation of Quicksort Algorithm.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Formal Relational Query Languages_1.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L6_Designing a Flexible List and Operations .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Formal Relational Query Languages_2.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L5_Difference Between Lists and Arrays (Theo.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L8_Implementation of Dictionaries in Python.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_1_ Indexing_1 .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L2_Representing Graphs.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_2_ Indexing_2 .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L7_Implementation of Lists in Python.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L9_Difference Between Lists and Arrays (Impl.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_3_ Indexing_3 .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L3_Breadth First Search BFS.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L4_Depth First Search DFS.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_3_ Indexing_3 (1).html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_4_ Hashing - Y.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Intermediate SQL_2 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Intermediate SQL_1 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L1_Introduction to Graphs.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L5_Applications of BFS and DFS.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_5_ Index Desig.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L8_Longest Path in DAGs.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L6_Introduction to Directed Acyclic Graph DA.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L7_Topological Sorting.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to DBMS_2 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to DBMS_1 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Intermediate SQL_3 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L2_Single Sourse Shortest Paths (Dijkstra_s .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to Relational Model_2 .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L1_Shortest Paths in Weighted Graphs.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to Relational Model_1 .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L4_All Pairs Shortest Paths (Floyd-Warshall .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L5_Minimum Cost Spanning Trees.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L6_Minimum Cost Spanning Trees (Prim_s Algor.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to SQL_1 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to SQL_2 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to SQL_3 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Lossless Join Decomposition - YouTu.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W6L2_Priority Queues.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L3_Single Sourse Shortest Paths with Negativ.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L7_Minimum Cost Spanning Trees Kruskal_s Alg.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W6L3_Heaps.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Multivalued Dependency - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W6L1_Union Find Data Structure.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W6L4_Using Heaps in Algorithms.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Non-Relational DBMS_ NOSQL - YouTub.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W7L1_Balanced Search Trees.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Query Processing and Optimization_1.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W6L5_Search Trees.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Problem Solving on normalization - .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W7L3_Greedy Algorithms-Minimizing Lateness.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W7L2_Greedy Algorithms-Interval Scheduling.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Query Processing and Optimization_2.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_10_ Desi.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W7L4_Greedy Algorithms-Huffman Coding.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_1 - YouT.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 RDBMS Performance &amp_ Architectur.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Super Keys and Candidate Keys - You.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Backup &amp_ Recovery_2_ Recovery_1.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L3_Grid Paths.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Transactions_1 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L1_Divide and Conquer  Counting Inversions.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L5_Minimum Cost Spanning Trees metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L4_Common Subwords and Subsequences.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Transactions_2_ Serializability - Y.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L5_Edit Distance.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L7_Classes and Objects metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L6_Matrix Multiplication.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Running SQL Commands in PostgreSQL .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L4_Divide and Conquer  Recursion Trees.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Algorithms and Data Structures_3_ D.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS week-11 Part-1 - YouTube metad.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 SQL Examples - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-10 Part-1 - YouTube metad.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L7_Intractability  P and NP metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Summary of Weeks 1 to 3 metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L3_Divide and Conquer  Integer Multiplicatio.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L7_Implementation of Lists in Python metadat.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L4_Divide and Conquer  Recursion Trees metad.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Storage and File Structure_1_ Physi.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L2_Linear Programming  Production Planning .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L1_Dynamic Programming.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Transactions_3_ Recoverability - Yo.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Foundations of Data Structures and Algorithms.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W6L3_Heaps metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/The Structure and Operations of Binary Search .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L2_Divide and Conquer  Closest Pair of Point.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L1_Linear Programming metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L2_Implementation of Python Codes - Part 01 .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_9_ MVD &.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L7_Merge Sort metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L7_String Matching-Regular Expressions meta.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Backup &amp_ Recovery_4_ Recovery_3.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_7_ Norma.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Tuple Relational Calculus - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_5 - YouT.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_4 - YouT.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Linux process management - YouTube .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L2_Memoization metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_2 - YouT.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-12  Part-1,Meet theory di.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS week-5 Revision - YouTube meta.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-1 l one shot revision l -.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Why DBMS_1 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS week-6  1-shot revision - YouT.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Entity-Relationship Model_1 - YouTu.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Transactions_1 - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_4 - YouT.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Triggers(case sudies) - YouTube met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Canonical Cover - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L6_String Matching-Tries metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L5_Python Recap - III metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L8_Implementation of Dictionaries in Python .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L6_Insertion Sort metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-10 Part-2 - YouTube metad.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L2_String Matching_ Boyer-Moore Algorithm m.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Summary of Weeks 10 to 11 metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W7L2_Greedy Algorithms-Interval Scheduling met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Pipelining, Memory Hierarchy, and Parallel Arc.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L2_Memoization.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L5_Divide and Conquer  Quick Select.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Entity-Relationship Model_2 - YouTu.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Linux Flashcards metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Binary Numbers &amp_ Character Enco.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L3_Python Recap - I metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Triggers(case sudies) - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to DBMS_1 - YouTube me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W6L2_Priority Queues metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Closure of Attributes - YouTube met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W6L5_Search Trees metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L3_Linear Programming  Bandwidth Allocation.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L9_Difference Between Lists and Arrays (Impl.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Lossless Join Decomposition - YouTu.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_9_ MVD &.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L5_Divide and Conquer  Quick Select metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W7L3_Greedy Algorithms-Minimizing Lateness met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L11_Why Efficiency Matters metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_(5).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Backup &amp_ Recovery_3_ Recovery_2.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L1_Divide and Conquer  Counting Inversions m.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L6_Exception Handling metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to SQL_3 - YouTube met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Dependency presevation - YouTube me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_(2).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L3_Grid Paths metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to Relational Model_2 .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Entity-Relationship Model_2 - YouTu(1).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L2_Comparing Orders of Magnitude metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L5_Difference Between Lists and Arrays (Theo.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L4_Searching in a List metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L1_Shortest Paths in Weighted Graphs metadat.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L4_Network Flows metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L8_Implementation of Python Codes - Part 02 .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Binary Numbers &amp_ Character Enco(1).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Database Systems_ Design, Normalization, and A.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Formal Relational Query Languages_2.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L5_String Matching_ Knuth-Morris-Pratt Algo.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Eight Weeks of Algorithm Design and Analysis.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Algorithms and Data Structures Compendium.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Why DBMS_2 - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L8_Longest Path in DAGs metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W7L1_Balanced Search Trees metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L4_String Matching Using Automata metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_2_ Indexing_2 .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Sorting Algorithms_ Analysis and Trade-offs.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Case Study on ER Diagram - YouTube .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 case study erd new - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_10_ Desi.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L7_Topological Sorting metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_(1).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L6_Designing a Flexible List and Operations .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_3 - YouT.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Intermediate SQL_1 - YouTube metada.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L12_Implementation of Python Codes - Part 04.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Non-Relational DBMS_ NOSQL - YouTub.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to Relational Model_1 .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Multivalued Dependency - YouTube me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Storage and File Structure_2_ File .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Storage and File Structure_1_ Physi.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_5 - YouT.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L10_Implementation of Python Codes - Part 03.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_3 - YouT.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L3_String Matching_ Rabin-Karp Algorithm me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L1_Introduction to Jupyter Notebooks and Goo.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Intermediate SQL_3 - YouTube metada.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L6_Minimum Cost Spanning Trees (Prim_s Algor.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Transactions_3_ Recoverability - Yo.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Transactions_2_ Serializability - Y.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to DBMS_2 - YouTube me.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L1_Quicksort metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L5_Edit Distance metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W6L1_Union Find Data Structure metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L5_Reductions metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L3_Single Sourse Shortest Paths with Negativ.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_3_ Indexing_3 .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_5_ Index Desig.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L3_Implementation of Quicksort Algorithm met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Formal Relational Query Languages_1.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Running SQL Commands in PostgreSQL .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L6_Implementation of Quick Select and Fast S.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_1 - YouT.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Algorithms and Data Structures_2_ D(1).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L3_Breadth First Search BFS metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W11L6_Intractability  Checking Algorithms meta.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Advanced SQL - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Algorithms and Data Structures_1_ A.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L7_Minimum Cost Spanning Trees Kruskal_s Alg.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L9_Implementation of Searching and Sorting A.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Why DBMS_1 - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L4_Common Subwords and Subsequences metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Concurrency Control_2 - YouTube met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Translation of E-R Diagram into Rel.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Why DBMS_2 - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Summary Tutorial - YouTube met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W10L1_String Matching metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to SQL_2 - YouTube met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L2_Analysis of Quicksort metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L9_Timing Our Code metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-02 Lecture 1 - Introduction High Speed.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_8_ Case .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_8_ Case .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L2_Representing Graphs metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L5_Selection Sort metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L1_Introduction to Graphs metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 case study erd new - YouTube metada.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Intermediate SQL_2 - YouTube metada.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-8 Part-1 Revision - YouTu.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Linux Command Line, Scripting, and System Admi.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_3_ Indexing_3 (1).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Tuple Relational Calculus - YouTube.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W1L4_Python Recap - II metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Algorithms and Data Structures_2_ D.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L6_Implementation of Quick Select and Fast S.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L1_Dynamic Programming metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_4_ Hashing - Y.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_(4).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L2_Single Sourse Shortest Paths (Dijkstra_s .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Problem Solving on normalization - .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week 2 Theory - YouTube metada.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Super Keys and Candidate Keys - You.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W9L6_Matrix Multiplication metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Application Design and Development_(3).json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Widely Used DBMSs and Course Summar.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Managing Storage - YouTube.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W7L4_Greedy Algorithms-Huffman Coding metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L3_Calculating Complexity - Examples metadat.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Query Processing and Optimization_1.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-8 Part-2 Revision - YouTu.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W6L4_Using Heaps in Algorithms metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L8_Analysis of Merge Sort metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Summary of Weeks 7 to 9 metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_2 - YouT.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L5_Applications of BFS and DFS metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W3L4_Concluding Remarks on Sorting Algorithms .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Concurrency Control_1 - YouTube met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/MazeSolver Bot_ Arena, Design, and FPGA Implem.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_6_ Norma.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L6_Introduction to Directed Acyclic Graph DA.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Query Processing and Optimization_2.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Summary of Weeks 4 to 6 metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_7_ Norma.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Storage and File Structure_2_ File .html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L2_Divide and Conquer  Closest Pair of Point.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Course Overview - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Backup &amp_ Recovery_1_ Backup_1 -.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Backup &amp_ Recovery_5_ Backup_2_ .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-9 l 1-shot Revision l DBM.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 DBMS Week-12 Part-2 Meet Discussion.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Widely Used DBMSs and Course Summar.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Indexing and Hashing_1_ Indexing_1 .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W8L3_Divide and Conquer  Integer Multiplicatio.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W2L1_Analysis of Algorithms metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W4L4_Depth First Search DFS metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 RDBMS Performance &amp_ Architectur.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/Balanced Search Trees and AVL Rotations.html  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Division Operation - YouTube metada.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 SQL Examples - YouTube metadata.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/W5L4_All Pairs Shortest Paths (Floyd-Warshall .json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Relational Database Design_6_ Norma.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Entity-Relationship Model_3 - YouTu.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Introduction to SQL_1 - YouTube met.json  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/2025-12-06 Translation of E-R Diagram into Rel.json  
+Extracting /home/abhinav/Downloads/t2c_maze_explorer.zip into /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data...
+Archive:  /home/abhinav/Downloads/t2c_maze_explorer.zip
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/t2c_maze_explorer.qpf  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/t2c_maze_explorer.qsf  
+  inflating: /home/abhinav/CLGS/NITT/studies/Sem4/EC LAB/PROJECT/PYTHON/data/t2c_maze_explorer.v  
+
+--- PHASE 2: PREPROCESSING ---
+Found 140 PCAP files. Starting ultra-fast raw preprocessing...
+Skipping vpn_hangouts_chat1a.pcap, already processed.
+Skipping sftpDown2.pcap, already processed.
+Skipping skype_file2.pcap, already processed.
+Skipping youtubeHTML5_1.pcap, already processed.
+Skipping netflix3.pcap, already processed.
+Skipping sftp_down_3b.pcap, already processed.
+Skipping netflix1.pcap, already processed.
+Skipping youtube3.pcap, already processed.
+Skipping hangouts_chat_4a.pcap, already processed.
+Skipping vpn_skype_audio1.pcap, already processed.
+Skipping spotify2.pcap, already processed.
+Skipping facebook_video1a.pcap, already processed.
+Skipping scpDown6.pcap, already processed.
+Skipping youtube1.pcap, already processed.
+Skipping ftps_down_1a.pcap, already processed.
+Skipping vpn_sftp_B.pcap, already processed.
+Skipping ftps_down_1b.pcap, already processed.
+Skipping scpDown3.pcap, already processed.
+Skipping vpn_vimeo_B.pcap, already processed.
+Skipping vpn_spotify_A.pcap, already processed.
+Skipping vpn_facebook_chat1b.pcap, already processed.
+Skipping vpn_netflix_A.pcap, already processed.
+Skipping vpn_email2a.pcap, already processed.
+Skipping skype_video1a.pcap, already processed.
+Skipping icq_chat_3b.pcap, already processed.
+Skipping scpDown5.pcap, already processed.
+Skipping hangouts_audio1a.pcap, already processed.
+Skipping vimeo2.pcap, already processed.
+Skipping ftps_up_2b.pcap, already processed.
+Skipping scpUp1.pcap, already processed.
+Skipping sftp_down_3a.pcap, already processed.
+Skipping vpn_skype_chat1b.pcap, already processed.
+Skipping scpUp6.pcap, already processed.
+Skipping voipbuster_4a.pcap, already processed.
+Skipping skype_chat1a.pcap, already processed.
+Skipping aim_chat_3b.pcap, already processed.
+Skipping vpn_facebook_audio2.pcap, already processed.
+Skipping youtube5.pcap, already processed.
+Skipping facebook_video2a.pcap, already processed.
+Skipping skype_video2a.pcap, already processed.
+Skipping sftp_up_2a.pcap, already processed.
+Skipping email2a.pcap, already processed.
+Skipping vpn_vimeo_A.pcap, already processed.
+Skipping skype_audio2a.pcap, already processed.
+Skipping facebook_chat_4b.pcap, already processed.
+Skipping aim_chat_3a.pcap, already processed.
+Skipping hangouts_audio2a.pcap, already processed.
+Skipping vpn_voipbuster1a.pcap, already processed.
+Skipping vpn_voipbuster1b.pcap, already processed.
+Skipping vpn_skype_chat1a.pcap, already processed.
+Skipping netflix2.pcap, already processed.
+Skipping facebook_audio2a.pcap, already processed.
+Skipping hangouts_video2a.pcap, already processed.
+Skipping scpDown1.pcap, already processed.
+Skipping vimeo1.pcap, already processed.
+Skipping vpn_hangouts_audio1.pcap, already processed.
+Skipping vpn_hangouts_audio2.pcap, already processed.
+Skipping sftpDown1.pcap, already processed.
+Skipping vpn_skype_files1a.pcap, already processed.
+Skipping vpn_youtube_A.pcap, already processed.
+Skipping ftps_up_2a.pcap, already processed.
+Skipping email1b.pcap, already processed.
+Skipping scpDown4.pcap, already processed.
+Skipping youtube6.pcap, already processed.
+Skipping vpn_skype_audio2.pcap, already processed.
+Skipping hangout_chat_4b.pcap, already processed.
+Skipping vpn_aim_chat1b.pcap, already processed.
+Skipping spotify4.pcap, already processed.
+Skipping youtube2.pcap, already processed.
+Skipping netflix4.pcap, already processed.
+Skipping vpn_sftp_A.pcap, already processed.
+Skipping spotify3.pcap, already processed.
+Skipping sftpUp1.pcap, already processed.
+Skipping scpUp2.pcap, already processed.
+Skipping vpn_ftps_B.pcap, already processed.
+Skipping skype_file3.pcap, already processed.
+Skipping skype_audio1a.pcap, already processed.
+Skipping facebook_chat_4a.pcap, already processed.
+Skipping vpn_icq_chat1b.pcap, already processed.
+Skipping email2b.pcap, already processed.
+Skipping vpn_facebook_chat1a.pcap, already processed.
+Skipping voipbuster_4b.pcap, already processed.
+Skipping email1a.pcap, already processed.
+Skipping youtube4.pcap, already processed.
+Skipping vpn_skype_files1b.pcap, already processed.
+Skipping vpn_email2b.pcap, already processed.
+Skipping icq_chat_3a.pcap, already processed.
+Skipping sftp_up_2b.pcap, already processed.
+Skipping vpn_bittorrent.pcap, already processed.
+Skipping spotify1.pcap, already processed.
+Skipping vpn_aim_chat1a.pcap, already processed.
+Skipping scpUp5.pcap, already processed.
+Skipping vpn_hangouts_chat1b.pcap, already processed.
+Skipping vimeo4.pcap, already processed.
+Skipping vpn_ftps_A.pcap, already processed.
+Skipping skype_chat1b.pcap, already processed.
+Skipping facebook_audio1a.pcap, already processed.
+Skipping scpUp3.pcap, already processed.
+Skipping skype_file1.pcap, already processed.
+Skipping vpn_icq_chat1a.pcap, already processed.
+Skipping vimeo3.pcap, already processed.
+Skipping scpDown2.pcap, already processed.
+Skipping skype_audio3.pcapng, already processed.
+Skipping hangouts_audio3.pcapng, already processed.
+Skipping facebookchat1.pcapng, already processed.
+Skipping gmailchat3.pcapng, already processed.
+Skipping skype_file5.pcapng, already processed.
+Skipping hangouts_video1b.pcapng, already processed.
+Skipping facebook_video1b.pcapng, already processed.
+Skipping skype_video2b.pcapng, already processed.
+Skipping voipbuster2b.pcapng, already processed.
+Skipping gmailchat1.pcapng, already processed.
+Skipping skype_audio1b.pcapng, already processed.
+Skipping facebook_video2b.pcapng, already processed.
+Skipping skype_file4.pcapng, already processed.
+Skipping facebookchat3.pcapng, already processed.
+Skipping skype_video1b.pcapng, already processed.
+Skipping facebook_audio2b.pcapng, already processed.
+Skipping voipbuster3b.pcapng, already processed.
+Skipping voipbuster1b.pcapng, already processed.
+Skipping facebookchat2.pcapng, already processed.
+Skipping hangouts_audio4.pcapng, already processed.
+Skipping AIMchat1.pcapng, already processed.
+Skipping scp1.pcapng, already processed.
+Skipping hangouts_video2b.pcapng, already processed.
+Skipping skype_audio2b.pcapng, already processed.
+Skipping facebook_audio3.pcapng, already processed.
+Skipping skype_file6.pcapng, already processed.
+Skipping ICQchat2.pcapng, already processed.
+Skipping facebook_audio1b.pcapng, already processed.
+Skipping skype_file7.pcapng, already processed.
+Skipping ICQchat1.pcapng, already processed.
+Skipping skype_audio4.pcapng, already processed.
+Skipping hangouts_audio2b.pcapng, already processed.
+Skipping AIMchat2.pcapng, already processed.
+Skipping skype_file8.pcapng, already processed.
+Skipping gmailchat2.pcapng, already processed.
+Skipping hangouts_audio1b.pcapng, already processed.
+Skipping facebook_audio4.pcapng, already processed.
+Skipping sftp1.pcapng, already processed.
+
+Raw Preprocessing Complete! Took 0.00 seconds.
+
+--- PHASE 3: CLASS VALIDATION ---
+Found 11 classes: {'STREAMING', 'VPN-VOIP', 'CHAT', 'VOIP', 'VPN-CHAT', 'VPN-FT', 'VPN-MAIL', 'MAIL', 'VPN-STREAMING', 'VPN-P2P', 'FT'}
+
+--- PHASE 4: EXECUTION ---
+Class count (11) is less than 14. Aborting training.
+Powering off the PC as requested...

@@ -1,0 +1,15 @@
+Loading 140 processed PCAP tensor files...
+Loaded 17733 total network flows.
+Classes: [np.str_('CHAT'), np.str_('FT'), np.str_('MAIL'), np.str_('STREAMING'), np.str_('VOIP'), np.str_('VPN-CHAT'), np.str_('VPN-FT'), np.str_('VPN-MAIL'), np.str_('VPN-P2P'), np.str_('VPN-STREAMING'), np.str_('VPN-VOIP')]
+Starting Training on NVIDIA GeForce RTX 4070 Laptop GPU...
+Epoch [1/300], Loss: 1.2885, Acc: 57.69%, Best: 0.00%, LR: 0.000100
+Epoch [2/300], Loss: 1.0011, Acc: 66.03%, Best: 57.69%, LR: 0.000100
+Epoch [3/300], Loss: 0.8773, Acc: 69.63%, Best: 66.03%, LR: 0.000100
+Epoch [4/300], Loss: 0.8074, Acc: 71.54%, Best: 69.63%, LR: 0.000100
+Epoch [5/300], Loss: 0.7349, Acc: 74.50%, Best: 71.54%, LR: 0.000100
+Epoch [6/300], Loss: 0.6812, Acc: 76.14%, Best: 74.50%, LR: 0.000100
+Epoch [7/300], Loss: 0.6287, Acc: 78.12%, Best: 76.14%, LR: 0.000100
+Epoch [8/300], Loss: 0.5949, Acc: 79.12%, Best: 78.12%, LR: 0.000100
+Epoch [9/300], Loss: 0.5619, Acc: 80.22%, Best: 79.12%, LR: 0.000100
+Epoch [10/300], Loss: 0.5366, Acc: 81.07%, Best: 80.22%, LR: 0.000100
+Epoch [11/300], Loss: 0.5139, Acc: 82.57%, Best: 81.07%, LR: 0.000100
