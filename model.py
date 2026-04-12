@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import transformer_engine.pytorch as te
 import math
-from torch.utils.checkpoint import checkpoint
 
 class TETransformerLayer(nn.Module):
     def __init__(self, d_model, nhead, dim_feedforward, dropout=0.0):
@@ -30,7 +29,7 @@ class TETransformerLayer(nn.Module):
         return src
 
 class PositionalEncoding(nn.Module):
-    def __init__(self, d_model, max_len=1024):
+    def __init__(self, d_model, max_len=129):
         super().__init__()
         position = torch.arange(max_len).unsqueeze(1)
         div_term = torch.exp(torch.arange(0, d_model, 2) * (-math.log(10000.0) / d_model))
@@ -43,11 +42,10 @@ class PositionalEncoding(nn.Module):
         return x + self.pe[:, :x.size(1), :]
 
 class NetHAMLModel(nn.Module):
-    def __init__(self, num_classes=11, temporal_dim=16, seq_len=1024, d_model=512, nhead=8, num_layers=8):
+    def __init__(self, num_classes=11, temporal_dim=4, d_model=256, nhead=8, num_layers=4):
         super().__init__()
         self.num_classes = num_classes
         
-        # --- 1. SPATIAL PATH (CNN) ---
         self.cnn = nn.Sequential(
             nn.Conv2d(1, 64, kernel_size=3, padding=1),
             nn.BatchNorm2d(64), nn.ReLU(), nn.MaxPool2d(2),
@@ -56,60 +54,60 @@ class NetHAMLModel(nn.Module):
             nn.Conv2d(128, 256, kernel_size=3, padding=1),
             nn.BatchNorm2d(256), nn.ReLU(), nn.MaxPool2d(2),
             nn.Flatten(),
-            te.Linear(256 * 8 * 8, 1024),
+            te.Linear(256 * 8 * 8, 512),
             nn.ReLU()
         )
         
-        # --- 2. TEMPORAL PATH (1D-CNN Micro-cluster Extraction) ---
         self.temporal_encoder = nn.Sequential(
             nn.Conv1d(temporal_dim, 128, kernel_size=3, padding='same'),
-            nn.BatchNorm1d(128),
-            nn.ReLU(),
+            nn.BatchNorm1d(128), nn.ReLU(),
             nn.Conv1d(128, d_model, kernel_size=3, padding='same'),
-            nn.BatchNorm1d(d_model),
-            nn.ReLU()
+            nn.BatchNorm1d(d_model), nn.ReLU()
         )
         
-        self.pos_encoder = PositionalEncoding(d_model, max_len=seq_len+1)
+        self.pos_encoder = PositionalEncoding(d_model)
         self.cls_token = nn.Parameter(torch.randn(1, 1, d_model))
         
         self.transformer_layers = nn.ModuleList([
-            TETransformerLayer(d_model, nhead, (d_model * 4) + (8 - (d_model*4)%8)%8, dropout=0.0)
+            TETransformerLayer(d_model, nhead, d_model * 4, dropout=0.0)
             for _ in range(num_layers)
         ])
         
-        self.temporal_out = te.Linear(d_model, 1024)
+        self.temporal_out = te.Linear(d_model, 512)
         
-        # --- 3. FUSION HEAD ---
+        self.metadata_mlp = nn.Sequential(
+            nn.Linear(3, 16),
+            nn.ReLU(),
+            nn.Linear(16, 16),
+            nn.ReLU()
+        )
+        
+        # Classifier with output padding for FP8
         self.classifier = nn.Sequential(
-            te.Linear(2048, 1024),
+            te.Linear(512 + 512 + 16, 1024),
             nn.LayerNorm(1024),
             nn.ReLU(),
             te.Linear(1024, 16)
         )
 
-    def forward(self, temporal_x, spatial_x):
+    def forward(self, temporal_x, spatial_x, metadata_x):
         B = temporal_x.size(0)
+        spatial_feat = self.cnn(spatial_x)
         
-        spatial_feat = self.cnn(spatial_x) # (B, 1024)
-        
-        # Temporal Path (Expects B, F, T)
         x = temporal_x.transpose(1, 2)
-        x = self.temporal_encoder(x) # (B, d_model, 1024)
-        x = x.transpose(1, 2) # (B, 1024, d_model)
+        x = self.temporal_encoder(x)
+        x = x.transpose(1, 2)
         
         cls_tokens = self.cls_token.expand(B, -1, -1)
-        x_seq = torch.cat((cls_tokens, x), dim=1) # (B, 1025, d_model)
+        x_seq = torch.cat((cls_tokens, x), dim=1)
         x_seq = self.pos_encoder(x_seq)
         
-        for i, layer in enumerate(self.transformer_layers):
-            if i < 4:
-                x_seq = checkpoint(layer, x_seq, use_reentrant=True)
-            else:
-                x_seq = layer(x_seq)
+        # Direct layers (no checkpointing)
+        for layer in self.transformer_layers:
+            x_seq = layer(x_seq)
             
-        temporal_feat = self.temporal_out(x_seq[:, 0, :]) # (B, 1024)
+        temporal_feat = self.temporal_out(x_seq[:, 0, :])
+        meta_feat = self.metadata_mlp(metadata_x)
         
-        fused = torch.cat((spatial_feat, temporal_feat), dim=1) # (B, 2048)
-        # Return only the valid classes
+        fused = torch.cat((spatial_feat, temporal_feat, meta_feat), dim=1)
         return self.classifier(fused)[:, :self.num_classes]

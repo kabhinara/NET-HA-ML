@@ -9,9 +9,7 @@ class NetHAMLDataset(Dataset):
     def __init__(self, data_dir='data/processed'):
         pt_files = glob.glob(os.path.join(data_dir, '*.pt'))
         
-        all_temporal = []
-        all_spatial = []
-        all_labels = []
+        all_temporal, all_spatial, all_metadata, all_labels = [], [], [], []
         
         print(f"Loading {len(pt_files)} processed PCAP tensor files...")
         for f in pt_files:
@@ -19,25 +17,26 @@ class NetHAMLDataset(Dataset):
             num_flows = data['temporal'].shape[0]
             all_temporal.append(data['temporal'])
             all_spatial.append(data['spatial'])
+            all_metadata.append(data['metadata'])
             all_labels.extend([data['label']] * num_flows)
             
-        self.temporal = torch.cat(all_temporal, dim=0) # Shape: (Total_N, 1024, 16)
-        self.spatial = torch.cat(all_spatial, dim=0)   # Shape: (Total_N, 1, 64, 64)
+        self.temporal = torch.cat(all_temporal, dim=0)
+        self.spatial = torch.cat(all_spatial, dim=0)
+        self.metadata = torch.cat(all_metadata, dim=0)
         
         self.label_encoder = LabelEncoder()
         self.labels = torch.tensor(self.label_encoder.fit_transform(all_labels), dtype=torch.long)
         
         print(f"Loaded {len(self.labels)} total network flows.")
-        print(f"Classes: {list(self.label_encoder.classes_)}")
 
     def __len__(self):
         return len(self.labels)
 
     def __getitem__(self, idx):
-        # Subsample temporal (1024 packets) to (128, 16) using stride 8
-        temporal = self.temporal[idx][::8, :][:128, :] 
+        temporal = self.temporal[idx][:128, :]
         spatial = self.spatial[idx]
-        return temporal, spatial, self.labels[idx]
+        metadata = torch.log1p(self.metadata[idx])
+        return temporal, spatial, metadata, self.labels[idx]
 
 def get_net_ha_ml_loaders(data_dir='data/processed', batch_size=64):
     dataset = NetHAMLDataset(data_dir)
