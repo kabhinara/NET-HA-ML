@@ -4,6 +4,7 @@ import torch
 import numpy as np
 import time
 import struct
+from scipy.stats import entropy
 from scapy.utils import RawPcapReader, RawPcapNgReader
 
 def get_label(filename):
@@ -55,6 +56,7 @@ def parse_packet(pkt_data, linktype):
     sport, dport = struct.unpack("!HH", pkt_data[transport_offset:transport_offset+4])
     flow_id = tuple(sorted([src_ip + struct.pack("!H", sport), dst_ip + struct.pack("!H", dport)]) + [bytes([proto])])
     
+    # Payload offset
     if proto == 6:
         if len(pkt_data) < transport_offset + 13: payload_offset = transport_offset + 20
         else: payload_offset = transport_offset + ((pkt_data[transport_offset + 12] >> 4) & 0x0F) * 4
@@ -90,8 +92,9 @@ def preprocess_pcap(pcap_path, output_dir):
                 flow_id, payload, src_ip = parsed
                 
                 if flow_id not in flows:
-                    flows[flow_id] = {'packets': [], 'start_time': ts, 'payload_bytes': bytearray(), 'initiator': src_ip}
+                    flows[flow_id] = {'packets': [], 'start_time': ts, 'payload_bytes': bytearray(), 'initiator': src_ip, 'true_pkt_count': 0}
                 flow = flows[flow_id]
+                flow['true_pkt_count'] += 1
                 
                 if len(flow['packets']) < 128:
                     direction = 1 if src_ip == flow['initiator'] else -1
@@ -105,16 +108,26 @@ def preprocess_pcap(pcap_path, output_dir):
         print(f"  [!] Error: {e}")
         return
         
-    X_temporal, X_spatial, X_meta = [], [], []
+    X_temporal, X_spatial, X_meta, X_counts = [], [], [], []
     for flow_id, flow_data in flows.items():
         if len(flow_data['packets']) < 3: continue
         
         # 1. Temporal
-        temporal = np.zeros((128, 16), dtype=np.float32)
-        for j, p in enumerate(flow_data['packets']):
+        temporal = np.zeros((1024, 5), dtype=np.float32) 
+        cum_bytes = 0
+        iats_so_far = []
+
+        for j, p in enumerate(flow_data['packets'][:1024]): 
+            cum_bytes += abs(p['size'])
+            iats_so_far.append(p['iat'])
+    
             temporal[j, 0] = p['size']
             temporal[j, 1] = p['iat']
-        
+            temporal[j, 2] = 1 if p['size'] > 0 else -1
+            temporal[j, 3] = cum_bytes / 1e6 
+            # New 5th column: Rolling IAT Variance (Jitter)
+            temporal[j, 4] = np.var(iats_so_far) if j > 0 else 0.0        
+
         # 2. Spatial
         spatial = np.zeros(4096, dtype=np.float32)
         payload = flow_data['payload_bytes'][:4096]
@@ -125,17 +138,25 @@ def preprocess_pcap(pcap_path, output_dir):
         total_bytes = sum(abs(p['size']) for p in flow_data['packets'])
         duration = flow_data['packets'][-1]['time'] - flow_data['packets'][0]['time']
         mean_size = total_bytes / len(flow_data['packets'])
-        metadata = np.array([total_bytes, duration, mean_size], dtype=np.float32)
+
+        sizes = [abs(p['size']) for p in flow_data['packets']]
+        _, counts = np.unique(sizes, return_counts=True)
+        probs = counts / len(sizes)
+        size_entropy = entropy(probs, base=2)
+	
+        metadata = np.array([total_bytes, duration, mean_size, size_entropy], dtype=np.float32)
         
         X_temporal.append(temporal)
         X_spatial.append(spatial)
         X_meta.append(metadata)
+        X_counts.append(flow_data['true_pkt_count'])
     
     if len(X_temporal) == 0: return
     torch.save({
         'temporal': torch.tensor(np.array(X_temporal)), 
         'spatial': torch.tensor(np.array(X_spatial)), 
         'metadata': torch.tensor(np.array(X_meta)),
+        'pkt_counts': torch.tensor(np.array(X_counts, dtype=np.float32)),
         'label': label_str
     }, out_path)
     print(f"  -> Saved {len(X_temporal)} flows", flush=True)

@@ -3,77 +3,92 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, classification_report
+from torch.utils.data import DataLoader
+from torch.amp import autocast # NEW: For Flash Attention compatibility
 
 # Import your custom modules
 from model import NetHAMLModel
 from data_loader import NetHAMLDataset
-from torch.utils.data import DataLoader
 
 def evaluate_net_ha_ml():
     # 1. Configuration
     device = torch.device("cuda")
+    data_dir = 'data/processed'
+    weights_path = "net_ha_ml_best.pth" 
     
-    # IMPORTANT: Point this to your TEST data. 
-    # If you haven't split your data, use the same CSV for now just to test the code.
-    test_csv_path = "data/iscx_vpn2016.csv" 
+    # 2. Dataset & Loader
+    test_dataset = NetHAMLDataset(data_dir)
+    # Using batch_size=64 to keep VRAM usage stable on your 8GB 4070
+    test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
     
-    # 2. Safe Inference Loader
-    test_dataset = NetHAMLDataset('data/processed')
+    target_names = test_dataset.label_encoder.classes_
     
-    # We keep drop_last=True because the RTX 4070 still requires 
-    # batch alignment (mult of 8) for the FP8 inference kernels!
-    test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False, drop_last=True)
+    # 3. Initialize Architecture
+    print(f"Loading Net-HA-ML (4-layer, 256-dim, 1024-sequence)...")
+    model = NetHAMLModel(
+        num_classes=11, 
+        temporal_dim=5,     
+        d_model=256,        
+        num_layers=4        
+    ).to(device)
     
-    # 3. Load the Architecture and Weights
-    print("Loading Net-HA-ML Architecture...")
-    model = NetHAMLModel(num_classes=11, temporal_dim=16).to(device)
+    # Load weights
+    try:
+        # weights_only=True is best practice for security and speed
+        model.load_state_dict(torch.load(weights_path, map_location=device, weights_only=True))
+        print(f"Successfully loaded weights from {weights_path}")
+    except FileNotFoundError:
+        print(f"Error: {weights_path} not found.")
+        return
+
+    model.eval() 
     
-    # Load the weights from the training run
-    model.load_state_dict(torch.load("net_ha_ml_best.pth", weights_only=True))
-    model.eval() # Disable dropout and batch norm
-    
-    # Tracking
     all_preds = []
     all_labels = []
     
-    print(f"Running Inference on {device}...")
+    print(f"Running Inference on {len(test_dataset)} flows (using Flash Attention)...")
+    
+    # torch.no_grad() reduces memory consumption during inference
     with torch.no_grad():
-        for temporal, spatial, metadata, labels in test_loader:
-            temporal, spatial, metadata, labels = temporal.to(device), spatial.to(device), metadata.to(device), labels.to(device)
+        # NEW: autocast is REQUIRED here to enable the Flash Attention kernel in model.py
+        with autocast(device_type='cuda', dtype=torch.bfloat16):
+            for temporal, spatial, metadata, labels, _ in test_loader:
+                
+                # Move batch to GPU
+                temporal = temporal.to(device)
+                spatial = spatial.to(device)
+                metadata = metadata.to(device)
+                
+                # Forward pass
+                class_out, _ = model(temporal, spatial, metadata)
+                
+                # Get predicted class
+                _, predicted = torch.max(class_out, 1)
+                
+                all_preds.extend(predicted.cpu().numpy())
+                all_labels.extend(labels.cpu().numpy())
+            
+    print("\n=== EVALUATION COMPLETE ===")
     
-            # You MUST also pass the metadata to the model forward pass
-            outputs = model(temporal, spatial, metadata)	    
-            temporal, spatial = temporal.to(device), spatial.to(device)
-            
-            # Forward pass
-            outputs = model(temporal, spatial, metadata)
-            _, predicted = torch.max(outputs.data, 1)
-            
-            # Move back to CPU for Scikit-Learn
-            all_preds.extend(predicted.cpu().numpy())
-            all_labels.extend(labels.cpu().numpy())
-            
-    print("\n=== INFERENCE COMPLETE ===")
-    
-    # 4. Generate Classification Report (Precision, Recall, F1)
+    # 4. Generate Classification Report
     print("\nClassification Report:")
-    print(classification_report(all_labels, all_preds, zero_division=0))
+    # target_names provides the actual labels (VOIP, FT, etc.)
+    print(classification_report(all_labels, all_preds, target_names=target_names, zero_division=0))
     
-    # 5. Render High-Res Confusion Matrix for the Report
+    # 5. Render High-Res Confusion Matrix
     cm = confusion_matrix(all_labels, all_preds)
     
-    plt.figure(figsize=(12, 10))
+    plt.figure(figsize=(14, 11))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
-                cbar_kws={'label': 'Number of Packets'})
+                xticklabels=target_names, yticklabels=target_names)
     
-    plt.title('Net-HA-ML: FP8 Confusion Matrix (ISCX-VPN2016)', fontsize=16)
+    plt.title('Net-HA-ML: Traffic Classification Performance (1024 Packets)', fontsize=16)
     plt.ylabel('True Traffic Class', fontsize=14)
     plt.xlabel('Predicted Traffic Class', fontsize=14)
     
-    # Save the plot directly to your folder
-    plot_path = 'confusion_matrix_v1.png'
+    plot_path = 'confusion_matrix_final.png'
     plt.tight_layout()
-    plt.savefig(plot_path, dpi=300) # 300 DPI is standard for academic papers
+    plt.savefig(plot_path, dpi=300)
     print(f"\nSaved high-resolution matrix to: {plot_path}")
 
 if __name__ == "__main__":

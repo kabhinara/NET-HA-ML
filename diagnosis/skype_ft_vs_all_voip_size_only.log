@@ -1,0 +1,9 @@
+Extracting ONLY Size features for Skype FT vs ALL VOIP...
+Extracted 11864 flows (Skype FT: 1796, ALL VOIP: 10068)
+
+Training Random Forest Classifier on ONLY Size features...
+Binary Classification Accuracy: 85.38%
+
+=== FEATURE IMPORTANCES ===
+Max Packet Size          : 61.9% importance
+Mean Packet Size         : 38.1% importance

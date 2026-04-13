@@ -1,0 +1,29 @@
+Extracting ONLY Max Size feature for Skype FT vs ALL VOIP...
+
+Training set: 9491 samples
+Testing set: 2373 samples (Skype FT: 371, ALL VOIP: 2002)
+
+Training Random Forest Classifier on ONLY Max Size feature...
+
+Binary Classification Accuracy: 85.38%
+
+=== MISCLASSIFICATION BREAKDOWN ===
+Total True Skype FT correctly predicted as Skype FT: 31
+Total True VOIP correctly predicted as VOIP: 1995
+--------------------------------------------------
+Total Skype FT misclassified as VOIP (False Negatives): 340
+Total VOIP misclassified as Skype FT (False Positives): 7
+--------------------------------------------------
+
+Where did the False Positives (VOIP predicted as Skype FT) come from?
+  - Skype VOIP: 4 flows
+  - Pure VOIP: 3 flows
+
+Where did the True Negatives (VOIP correctly predicted as VOIP) come from?
+  - Pure VOIP: 1367 flows
+  - Skype VOIP: 628 flows
+
+=== CONFUSION MATRIX ===
+                 Predicted VOIP    Predicted Skype FT
+Actual VOIP      1995              7                 
+Actual Skype FT  340               31                

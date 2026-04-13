@@ -9,8 +9,6 @@ class NetHAMLDataset(Dataset):
     def __init__(self, data_dir='data/processed'):
         pt_files = glob.glob(os.path.join(data_dir, '*.pt'))
         
-        self.filenames = []
-
         all_temporal, all_spatial, all_metadata, all_counts, all_labels = [], [], [], [], []
         
         print(f"Loading {len(pt_files)} processed PCAP tensor files...")
@@ -23,16 +21,6 @@ class NetHAMLDataset(Dataset):
             all_counts.append(data['pkt_counts'])
             all_labels.extend([data['label']] * num_flows)
             
-            for f in os.listdir(data_dir):
-                if not f.endswith('.pt'): continue
-                data = torch.load(os.path.join(data_dir, f), map_location='cpu')
-               
-                num_flows = data['temporal'].shape[0]
-
-                source_name = data.get('filename', f)
-       
-                self.filenames.extend([source_name] * num_flows)
-
         # Load everything directly into GPU VRAM
         self.temporal = torch.cat(all_temporal, dim=0).cuda()
         self.spatial = torch.cat(all_spatial, dim=0).cuda()
@@ -49,7 +37,7 @@ class NetHAMLDataset(Dataset):
 
     def __getitem__(self, idx):
         # We don't need .to(device) here because tensors are already in VRAM
-        return self.temporal[idx][:128, :], self.spatial[idx], self.metadata[idx], self.labels[idx], self.pkt_counts[idx], self.filenames[idx]
+        return self.temporal[idx][:128, :], self.spatial[idx], self.metadata[idx], self.labels[idx], self.pkt_counts[idx]
 
 def get_net_ha_ml_loaders(data_dir='data/processed', batch_size=64):
     dataset = NetHAMLDataset(data_dir)

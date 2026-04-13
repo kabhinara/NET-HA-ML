@@ -1,0 +1,80 @@
+import torch
+import os
+import numpy as np
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+def extract_micro_features(temp_tensor, spat_tensor):
+    features = []
+    # temp_tensor shape: (Flows, 1024, 5)
+    # spat_tensor shape: (Flows, 1, 64, 64)
+    
+    for i in range(temp_tensor.shape[0]):
+        temp = temp_tensor[i].numpy()
+        spat = spat_tensor[i].numpy()
+        
+        sizes = np.abs(temp[:, 0])
+        iats = temp[:, 1]
+        directions = temp[:, 2]
+        
+        # 1. Jitter (Standard Deviation of Inter-Arrival Times)
+        jitter = np.std(iats[iats > 0]) if len(iats[iats > 0]) > 0 else 0
+        
+        # 2. Micro-Burst Ratio (% of packets larger than 500 bytes)
+        large_pkt_ratio = np.sum(sizes > 500) / 1024.0
+        
+        # 3. Direction Flip Rate (How often it switches from send to receive)
+        flips = np.sum(directions[:-1] != directions[1:]) / 1024.0
+        
+        # 4. Spatial/Payload Sparsity (How many zeros are in the payload matrix)
+        # Audio is usually highly compressed (dense), FT might have padded blocks
+        sparsity = np.sum(spat == 0) / 4096.0
+        
+        # 5. Max Burst Size
+        max_size = np.max(sizes)
+        
+        features.append([jitter, large_pkt_ratio, flips, sparsity, max_size])
+        
+    return np.array(features)
+
+def binary_classification():
+    data_dir = 'data/processed'
+    X, y = [], []
+    
+    print("Extracting micro-features from Skype files...")
+    for f in os.listdir(data_dir):
+        if not f.endswith('.pt') or 'skype' not in f.lower(): continue
+        
+        data = torch.load(os.path.join(data_dir, f), map_location='cpu')
+        feats = extract_micro_features(data['temporal'], data['spatial'])
+        
+        # Label 1 for Skype FT, Label 0 for Skype Audio/Video
+        label = 1 if 'file' in f.lower() else 0
+        
+        X.append(feats)
+        y.extend([label] * feats.shape[0])
+
+    X = np.vstack(X)
+    y = np.array(y)
+    
+    print(f"Extracted {len(y)} Skype flows (FT: {np.sum(y==1)}, VOIP: {np.sum(y==0)})")
+    
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    
+    print("\nTraining Random Forest Classifier...")
+    clf = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=42)
+    clf.fit(X_train, y_train)
+    
+    preds = clf.predict(X_test)
+    print(f"Binary Classification Accuracy: {accuracy_score(y_test, preds) * 100:.2f}%\n")
+    
+    feature_names = ["Jitter (IAT StdDev)", "Large Pkt Ratio (>500B)", "Direction Flip Rate", "Payload Sparsity", "Max Packet Size"]
+    importances = clf.feature_importances_
+    
+    print("=== WHAT MAKES THEM DIFFERENT? ===")
+    for name, imp in sorted(zip(feature_names, importances), key=lambda x: x[1], reverse=True):
+        print(f"{name:<25}: {imp*100:.1f}% importance")
+
+if __name__ == "__main__":
+    binary_classification()

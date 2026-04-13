@@ -1,0 +1,8 @@
+Extracting ONLY Max Size feature for Pure FT vs Pure VOIP...
+Extracted 8739 flows (Pure FT: 1802, Pure VOIP: 6937)
+
+Training Random Forest Classifier on ONLY Max Size feature...
+Binary Classification Accuracy: 90.73%
+
+=== FEATURE IMPORTANCES ===
+Max Packet Size          : 100.0% importance

@@ -1,0 +1,39 @@
+Extracting features from all FT and VOIP flows...
+Flow counts:
+Skype FT: 1796
+Skype VOIP: 3131
+Pure FT: 1802
+Pure VOIP: 6937
+
+=== Skype FT vs Skype VOIP ===
+Accuracy: 65.01%
+Jitter (IAT StdDev)      : 20.1%
+Max Packet Size          : 17.5%
+Direction Ratio (Fwd/Bwd): 14.2%
+Payload Sparsity         : 12.8%
+Direction Flip Rate      : 11.0%
+Mean Packet Size         : 10.7%
+Large Pkt Ratio (>500B)  : 9.2%
+Large Pkt Ratio (>1200B) : 4.5%
+
+=== Pure FT vs Pure VOIP ===
+Accuracy: 93.36%
+Direction Flip Rate      : 19.4%
+Max Packet Size          : 18.4%
+Direction Ratio (Fwd/Bwd): 17.2%
+Payload Sparsity         : 16.2%
+Mean Packet Size         : 13.0%
+Large Pkt Ratio (>500B)  : 7.9%
+Jitter (IAT StdDev)      : 5.0%
+Large Pkt Ratio (>1200B) : 3.0%
+
+=== ALL FT vs ALL VOIP ===
+Accuracy: 83.76%
+Max Packet Size          : 21.6%
+Payload Sparsity         : 17.8%
+Direction Ratio (Fwd/Bwd): 17.7%
+Direction Flip Rate      : 17.4%
+Mean Packet Size         : 12.5%
+Large Pkt Ratio (>500B)  : 6.0%
+Jitter (IAT StdDev)      : 5.1%
+Large Pkt Ratio (>1200B) : 1.8%

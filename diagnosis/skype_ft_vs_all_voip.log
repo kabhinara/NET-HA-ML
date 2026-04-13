@@ -1,0 +1,11 @@
+Extracting targeted features (Size & Asymmetry) for Skype FT vs ALL VOIP...
+Extracted 11864 flows (Skype FT: 1796, ALL VOIP: 10068)
+
+Training Random Forest Classifier on ONLY Size and Asymmetry features...
+Binary Classification Accuracy: 85.46%
+
+=== FEATURE IMPORTANCES ===
+Max Packet Size          : 42.9% importance
+Direction Ratio (Fwd/Bwd): 24.1% importance
+Mean Packet Size         : 19.5% importance
+Direction Flip Rate      : 13.5% importance
