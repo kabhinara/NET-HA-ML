@@ -44,7 +44,7 @@ class PositionalEncoding(nn.Module):
         return x + self.pe[:, :x.size(1), :]
 
 class NetHAMLModel(nn.Module):
-    def __init__(self, num_classes=11, temporal_dim=5, d_model=256, nhead=8, num_layers=4):
+    def __init__(self, num_classes=11, temporal_dim=5, metadata_dim=7, d_model=256, nhead=8, num_layers=4):
         super().__init__()
         self.num_classes = num_classes
         
@@ -78,7 +78,7 @@ class NetHAMLModel(nn.Module):
         self.temporal_out = te.Linear(d_model, 1024)
         
         self.metadata_mlp = nn.Sequential(
-            nn.Linear(4, 16),
+            nn.Linear(metadata_dim, 16),
             nn.ReLU(),
             nn.Linear(16, 16),
             nn.ReLU()

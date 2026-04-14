@@ -38,8 +38,31 @@ class NetHAMLDataset(Dataset):
         # Load everything directly into GPU VRAM
         self.temporal = torch.cat(all_temporal, dim=0).cuda()
         self.spatial = torch.cat(all_spatial, dim=0).cuda()
-        self.metadata = torch.log1p(torch.cat(all_metadata, dim=0)).cuda()
         self.pkt_counts = torch.cat(all_counts, dim=0).view(-1, 1).cuda().float()        
+        
+        raw_metadata = torch.log1p(torch.cat(all_metadata, dim=0)).cuda()
+        
+        # --- EXPLICIT FEATURE EXTRACTION ---
+        print("Extracting explicitly engineered top-3 features (Max Size, Flips, Direction Ratio)...")
+        sizes = torch.abs(self.temporal[:, :, 0])
+        directions = self.temporal[:, :, 2]
+        
+        # 1. Max Pkt Size (log1p to scale it down similarly to metadata)
+        max_size = torch.max(sizes, dim=1)[0].unsqueeze(1)
+        max_size_log = torch.log1p(max_size)
+        
+        # 2. Direction Flips (normalized by sequence length 1024)
+        flips = torch.sum(directions[:, :-1] != directions[:, 1:], dim=1, keepdim=True).float() / self.temporal.size(1)
+        
+        # 3. Direction Ratio (Fwd/Bwd) (log1p to stabilize massive ratios)
+        fwd_pkts = torch.sum(directions == 1, dim=1, keepdim=True).float()
+        bwd_pkts = torch.sum(directions == -1, dim=1, keepdim=True).float()
+        dir_ratio = fwd_pkts / (bwd_pkts + 1e-5)
+        dir_ratio_log = torch.log1p(dir_ratio)
+        
+        # Concatenate into metadata stream (now length 4 + 3 = 7)
+        extracted_feats = torch.cat([max_size_log, flips, dir_ratio_log], dim=1)
+        self.metadata = torch.cat([raw_metadata, extracted_feats], dim=1)
         
         self.label_encoder = LabelEncoder()
         self.labels = torch.tensor(self.label_encoder.fit_transform(all_labels), dtype=torch.long).cuda()
