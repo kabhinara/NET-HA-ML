@@ -42,9 +42,12 @@ def train_net_ha_ml():
     num_classes = len(dataset.label_encoder.classes_)
     
     weights = dataset.class_weights.to(device)
+
+    # Dampen the weights so the majority class (VOIP) isn't completely starved and the rare classes don't cause massive gradient spikes.
+    weights = torch.clamp(weights ** 0.5, min=0.3, max=4.0)     
     
-    # Cap the extreme weights to prevent explosions but keep them aggressive for rare classes
-    weights = torch.clamp(weights, max=15.0)
+    # Increase gamma to 3.0 to heavily focus on the hardest misclassified examples 
+    criterion_class = FocalLoss(alpha=weights, gamma=3.0)     
     
     model = NetHAMLModel(
         num_classes=num_classes, 
@@ -57,8 +60,8 @@ def train_net_ha_ml():
     criterion_class = FocalLoss(alpha=weights, gamma=2.0)
     criterion_reg = nn.MSELoss()
     
-    # 4e-4 seems to be the sweet spot for the hybrid architecture
-    optimizer = optim.AdamW(model.parameters(), lr=4e-4, weight_decay=0.01, fused=True)
+    # Bump learning rate and weight decay for better convergence out of local minima 
+    optimizer = optim.AdamW(model.parameters(), lr=5e-4, weight_decay=0.02, fused=True)
     scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs)
 
     scaler = GradScaler('cuda')
