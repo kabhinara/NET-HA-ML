@@ -2,8 +2,8 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import transformer_engine.pytorch as te
-from torch import autocast                  # NEW: Import autocast
-from torch.cuda.amp import GradScaler       # NEW: Import GradScaler
+from torch.amp import autocast                  
+from torch.amp import GradScaler       
 from model import NetHAMLModel
 from data_loader import NetHAMLDataset
 
@@ -39,10 +39,11 @@ def train_net_ha_ml():
 
     dataset = NetHAMLDataset(data_dir)
     num_samples = len(dataset.labels)
+    num_classes = len(dataset.label_encoder.classes_)
     
-    weights = torch.tensor([1.5, 3.5, 4.0, 1.2, 1.0, 4.0, 3.5, 12.0, 4.5, 2.5, 1.5]).to(device)
+    weights = dataset.class_weights.to(device)
     model = NetHAMLModel(
-        num_classes=11, 
+        num_classes=num_classes, 
         temporal_dim=5, 
         d_model=256, 
         num_layers=4
@@ -53,8 +54,7 @@ def train_net_ha_ml():
     optimizer = optim.AdamW(model.parameters(), lr=2e-4, weight_decay=0.01, fused=True)
     scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs)
 
-    # NEW: Initialize the Gradient Scaler
-    scaler = torch.amp.GradScaler('cuda')
+    scaler = GradScaler('cuda')
 
     print(f"Starting Training: Physical Batch {batch_size}, Effective Batch {batch_size * accumulation_steps}")
     best_acc = 0.0
@@ -67,7 +67,7 @@ def train_net_ha_ml():
         indices = torch.randperm(num_samples, device=device)
         optimizer.zero_grad() 
 
-        for i in range(0, num_samples - batch_size, batch_size):
+        for i in range(0, num_samples - batch_size + 1, batch_size):
             batch_idx = indices[i:i+batch_size]
             
             temporal = dataset.temporal[batch_idx]
@@ -76,8 +76,7 @@ def train_net_ha_ml():
             labels = dataset.labels[batch_idx]
             pkt_counts = dataset.pkt_counts[batch_idx]
 
-            # NEW: Force bfloat16 for Flash Attention compatibility, safely nesting the TE FP8 cast
-            with autocast(device_type='cuda', dtype=torch.bfloat16):
+            with autocast('cuda', dtype=torch.bfloat16):
                 with te.fp8_autocast(enabled=True):
                     class_preds, pkt_preds = model(temporal, spatial, metadata)
                     loss_class = criterion_class(class_preds, labels)
@@ -87,11 +86,9 @@ def train_net_ha_ml():
                     
                     loss = (loss_class + (lambda_reg * loss_reg)) / accumulation_steps
 
-            # NEW: Use scaler for backward pass
             scaler.scale(loss).backward()
 
             if (i // batch_size + 1) % accumulation_steps == 0:
-                # NEW: Use scaler to step the optimizer and update
                 scaler.step(optimizer)
                 scaler.update()
                 optimizer.zero_grad()
@@ -110,6 +107,9 @@ def train_net_ha_ml():
             best_acc = epoch_acc
             torch.save(model.state_dict(), "net_ha_ml_best.pth")
             print(f"  --> New Best Accuracy! Saved: {best_acc:.2f}%")
+            if best_acc >= 99.5:
+                print("Target Accuracy Achieved (>99.5%).")
+                break
         
         torch.cuda.empty_cache()
 

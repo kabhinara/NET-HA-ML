@@ -17,21 +17,23 @@ class NetHAMLDataset(Dataset):
         for f in pt_files:
             data = torch.load(f, weights_only=True)
             num_flows = data['temporal'].shape[0]
+            
+            label = data['label']
+            fname = os.path.basename(f).lower()
+            if 'skype' in fname and ('audio' in fname or 'video' in fname or 'file' in fname or 'voip' in fname):
+                if 'vpn' in fname:
+                    label = 'VPN-VOIP'
+                else:
+                    label = 'VOIP'
+            
             all_temporal.append(data['temporal'])
             all_spatial.append(data['spatial'])
             all_metadata.append(data['metadata'])
             all_counts.append(data['pkt_counts'])
-            all_labels.extend([data['label']] * num_flows)
+            all_labels.extend([label] * num_flows)
             
-            for f in os.listdir(data_dir):
-                if not f.endswith('.pt'): continue
-                data = torch.load(os.path.join(data_dir, f), map_location='cpu')
-               
-                num_flows = data['temporal'].shape[0]
-
-                source_name = data.get('filename', f)
-       
-                self.filenames.extend([source_name] * num_flows)
+            source_name = data.get('filename', os.path.basename(f))
+            self.filenames.extend([source_name] * num_flows)
 
         # Load everything directly into GPU VRAM
         self.temporal = torch.cat(all_temporal, dim=0).cuda()
@@ -43,15 +45,20 @@ class NetHAMLDataset(Dataset):
         self.labels = torch.tensor(self.label_encoder.fit_transform(all_labels), dtype=torch.long).cuda()
         
         print(f"Loaded {len(self.labels)} total network flows into VRAM.")
+        print(f"Classes: {self.label_encoder.classes_}")
+
+        class_counts = torch.bincount(self.labels)
+        # Compute balanced class weights: num_samples / (num_classes * count)
+        # Using a slight dampening or directly taking the inverse
+        self.class_weights = (len(self.labels) / (len(self.label_encoder.classes_) * class_counts.float()))
+        print(f"Computed Class Weights: {self.class_weights}")
 
     def __len__(self):
         return len(self.labels)
 
     def __getitem__(self, idx):
-        # We don't need .to(device) here because tensors are already in VRAM
         return self.temporal[idx][:128, :], self.spatial[idx], self.metadata[idx], self.labels[idx], self.pkt_counts[idx], self.filenames[idx]
 
 def get_net_ha_ml_loaders(data_dir='data/processed', batch_size=64):
     dataset = NetHAMLDataset(data_dir)
-    # Turn off num_workers and pin_memory as tensors are already on GPU
     return DataLoader(dataset, batch_size=batch_size, shuffle=True, num_workers=0, pin_memory=False)
