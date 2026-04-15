@@ -44,8 +44,8 @@ def train_net_ha_ml():
     weights = dataset.class_weights.to(device)
     
     # Cap the extreme weights to prevent explosions but keep them aggressive for rare classes
-    weights = torch.clamp(weights, max=15.0)
-    
+    weights = torch.clamp(weights ** 0.5, min=0.3, max=5.0)
+
     model = NetHAMLModel(
         num_classes=num_classes, 
         temporal_dim=5, 
@@ -53,12 +53,12 @@ def train_net_ha_ml():
         d_model=256, 
         num_layers=4
     ).to(device)
-    
+
     criterion_class = FocalLoss(alpha=weights, gamma=2.0)
     criterion_reg = nn.MSELoss()
-    
-    # 4e-4 seems to be the sweet spot for the hybrid architecture
-    optimizer = optim.AdamW(model.parameters(), lr=4e-4, weight_decay=0.01, fused=True)
+
+    # 1e-3 provides the optimal smooth scaling for batch_size = 256
+    optimizer = optim.AdamW(model.parameters(), lr=1e-3, weight_decay=0.01, fused=True)
     scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs)
 
     scaler = GradScaler('cuda')

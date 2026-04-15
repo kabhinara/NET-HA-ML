@@ -2,7 +2,7 @@ import torch
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.metrics import confusion_matrix, classification_report, precision_recall_fscore_support, accuracy_score
 from torch.utils.data import DataLoader
 from torch.amp import autocast
 import transformer_engine.pytorch as te
@@ -16,8 +16,9 @@ def evaluate_net_ha_ml():
     data_dir = 'data/processed'
     weights_path = "net_ha_ml_best.pth" 
     
+    # 2. Dataset & Loader
     test_dataset = NetHAMLDataset(data_dir)
-    test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
+    test_loader = DataLoader(test_dataset, batch_size=256, shuffle=False)
     
     target_names = test_dataset.label_encoder.classes_
     num_classes = len(target_names)
@@ -25,7 +26,8 @@ def evaluate_net_ha_ml():
     print(f"Loading Net-HA-ML (4-layer, 256-dim)...")
     model = NetHAMLModel(
         num_classes=num_classes, 
-        temporal_dim=5,     
+        temporal_dim=5,
+        metadata_dim=7,     
         d_model=256,        
         num_layers=4        
     ).to(device)
@@ -42,7 +44,7 @@ def evaluate_net_ha_ml():
     all_preds = []
     all_labels = []
     
-    print(f"Running Inference on {len(test_dataset)} flows (using Flash Attention & FP8)...")
+    print(f"Running Inference on ALL {len(test_dataset)} flows (using Flash Attention & FP8)...")
     
     with torch.no_grad():
         with autocast('cuda', dtype=torch.bfloat16):
@@ -67,8 +69,17 @@ def evaluate_net_ha_ml():
             
     print("\n=== EVALUATION COMPLETE ===")
     
-    print("\nClassification Report:")
-    print(classification_report(all_labels, all_preds, target_names=target_names, zero_division=0))
+    print("\nClassification Report (4 Decimals):")
+    print(classification_report(all_labels, all_preds, target_names=target_names, digits=4, zero_division=0))
+    
+    precision, recall, f1, _ = precision_recall_fscore_support(all_labels, all_preds, average='weighted')
+    accuracy = accuracy_score(all_labels, all_preds)
+    
+    print("\n=== OVERALL METRICS (4 DECIMALS) ===")
+    print(f"Accuracy:  {accuracy:.4f}")
+    print(f"Precision: {precision:.4f}")
+    print(f"Recall:    {recall:.4f}")
+    print(f"F1-Score:  {f1:.4f}")
     
     cm = confusion_matrix(all_labels, all_preds)
     
